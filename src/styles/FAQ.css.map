@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,qEAAI;ADEZ,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,WAAW,ECGF,UAAU,EAAE,UAAU;CDFlC",
+    "sources": [
+        "FAQ.scss",
+        "Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "FAQ.css"
+}
