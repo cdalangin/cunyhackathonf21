@@ -1,7 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+a {
+  color: white;
+}
+
+a:hover {
+  color: #000B54;
+}
+
 .faq-bg {
-  min-height: 50vh;
+  min-height: 200vh;
+  background-image: url("../assets/FAQTopBG2.svg"), url("../assets/FAQBottomBG2.svg"), -webkit-gradient(linear, left top, right top, color-stop(50%, #000B54), color-stop(50%, #441AE7));
+  background-image: url("../assets/FAQTopBG2.svg"), url("../assets/FAQBottomBG2.svg"), linear-gradient(to right, #000B54 50%, #441AE7 50% 100%);
+  background-position: left top, bottom, 40% 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
   color: white;
   font-family: "Days One", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq-box {
+  color: white;
+  max-width: 90vw;
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: #7F70CD;
+}
+
+.faq-title {
+  font-size: 2.5em;
+  margin-top: .5em;
+}
+
+hr {
+  border-top: 5px solid white;
+}
+
+.faqs {
+  width: 100%;
+  margin: auto;
+}
+
+#faq-dropdown {
+  background-color: #7F70CD;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: between;
+      -ms-flex-pack: between;
+          justify-content: between;
+  white-space: normal;
+  text-align: start;
+  width: 100%;
+  margin: .8em 0;
+}
+
+.faq-ques {
+  font-size: 1em;
+  margin: auto;
+  width: 100%;
+}
+
+.faq-card {
+  width: 100%;
+  padding: .7em;
+}
+
+.faq-ans {
+  font-size: 0.7em;
+  margin: auto;
 }
 /*# sourceMappingURL=FAQ.css.map */

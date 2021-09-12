@@ -4,7 +4,7 @@ import "../styles/GetInvolved.css";
 export default function GetInvolved() {
 
     return (
-        <div>
+        <div className="getinv">
             <div className="getinv-bg">
                 <h1 className="getinv-title">Get Involved</h1>
                 <div className="inv-links row">
