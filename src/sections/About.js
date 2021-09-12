@@ -1,12 +1,12 @@
 import React from 'react';
-
+import "../styles/About.css"
 
 export default function About() {
 
     return (
-        <div>
+        <div className="about-bg">
             <div>
-                <p><b>CUNY Hackathon Fall 2021</b> is the first virtually held hackathon for
+                <p className="about-text"><b>CUNY Hackathon Fall 2021</b> is the first virtually held hackathon for
                     the City University of New York students, but we still welcome
                     students from all over the world. With the goal of bringing together
                     students in software development, design, marketing and entrepreneurship

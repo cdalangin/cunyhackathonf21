@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+.getinv-bg {
+  background-image: url("../assets/GetInvTBorder.svg");
+  max-width: 100vw;
+  min-height: 50vh;
+  background-color: #000B54;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.getinv-title {
+  color: #FEED00;
+  font-family: "Days One", sans-serif;
+  margin-top: 4em;
+}
+
+.inv-links {
+  width: 90%;
+  min-height: 15vh;
+  margin-top: 3em;
+}
+
+.link {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: .4em 0;
+}
+
+.link.n {
+  background-image: url("../assets/neptune.png");
+}
+
+.link.j {
+  background-image: url("../assets/jupiter.png");
+}
+
+.link.u {
+  background-image: url("../assets/uranus.png");
+}
+
+.link-text {
+  color: white;
+  font-family: "Days One", sans-serif;
+  font-size: 100%;
+  background-color: #00B587;
+  width: 10em;
+  padding: .2em .3em;
+  border-radius: 30px;
+}
+
+.link-text:hover {
+  cursor: pointer;
+}
+
+.getinv-bbg {
+  max-width: 100vw;
+  height: 50vh;
+  background-image: url("../assets/GetInvBBorder.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+/*# sourceMappingURL=GetInvolved.css.map */
