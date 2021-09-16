@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cunyhackathonf21/static/css/main.5ad8d985.chunk.css",
+    "main.css": "/cunyhackathonf21/static/css/main.2d9663bb.chunk.css",
     "main.js": "/cunyhackathonf21/static/js/main.6d1d8f0d.chunk.js",
     "main.js.map": "/cunyhackathonf21/static/js/main.6d1d8f0d.chunk.js.map",
     "runtime-main.js": "/cunyhackathonf21/static/js/runtime-main.c07cc02c.js",
@@ -10,7 +10,7 @@
     "static/js/3.16c4b668.chunk.js": "/cunyhackathonf21/static/js/3.16c4b668.chunk.js",
     "static/js/3.16c4b668.chunk.js.map": "/cunyhackathonf21/static/js/3.16c4b668.chunk.js.map",
     "index.html": "/cunyhackathonf21/index.html",
-    "static/css/main.5ad8d985.chunk.css.map": "/cunyhackathonf21/static/css/main.5ad8d985.chunk.css.map",
+    "static/css/main.2d9663bb.chunk.css.map": "/cunyhackathonf21/static/css/main.2d9663bb.chunk.css.map",
     "static/js/2.783132ce.chunk.js.LICENSE.txt": "/cunyhackathonf21/static/js/2.783132ce.chunk.js.LICENSE.txt",
     "static/media/FAQ.css": "/cunyhackathonf21/static/media/FAQTopBG2.0dcb049b.svg",
     "static/media/GetInvolved.css": "/cunyhackathonf21/static/media/uranus.2c26dd08.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.c07cc02c.js",
     "static/js/2.783132ce.chunk.js",
-    "static/css/main.5ad8d985.chunk.css",
+    "static/css/main.2d9663bb.chunk.css",
     "static/js/main.6d1d8f0d.chunk.js"
   ]
 }
