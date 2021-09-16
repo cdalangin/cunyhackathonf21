@@ -5,6 +5,8 @@ import About from "./sections/About"
 import GetInvolved from "./sections/GetInvolved"
 import Tracks from "./sections/Tracks"
 import FAQ from "./sections/FAQ"
+import TBA from "./sections/TBA"
+import Footer from "./sections/Footer"
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <Landing />
       <About />
       <GetInvolved />
-      <Tracks />
+      {/* <Tracks /> */}
       <FAQ />
+      <TBA />
+      <Footer />
     </div>
   );
 }

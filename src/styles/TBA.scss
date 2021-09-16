@@ -1,0 +1,47 @@
+@import "./Variables/Variables.scss";
+
+.tba-bg {
+    // background-image: url("../assets/OrganizerTopBG.svg");
+    background-position: bottom;
+    background-color: $night;
+    max-width: 100vw;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tba-title {
+    color: $neon-yellow;
+    font-family: $title-font;
+    font-size: 3em;
+}
+
+
+.tba-subtitle {
+    color: white;
+}
+
+.tba-follow {
+    color: white;
+    font-family: $title-font;
+    font-size: 1em;
+    background-color: $green;
+    width: 20em;
+    padding: .3em .4em;
+    margin-top: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+    .tba-title {
+        font-size: 4em;
+    }
+    
+    .tba-follow {
+        font-size: 1.7em;
+    }
+}

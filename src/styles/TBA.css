@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+.tba-bg {
+  background-position: bottom;
+  background-color: #000B54;
+  max-width: 100vw;
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tba-title {
+  color: #FEED00;
+  font-family: "Days One", sans-serif;
+  font-size: 3em;
+}
+
+.tba-subtitle {
+  color: white;
+}
+
+.tba-follow {
+  color: white;
+  font-family: "Days One", sans-serif;
+  font-size: 1em;
+  background-color: #00B587;
+  width: 20em;
+  padding: .3em .4em;
+  margin-top: 1em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+  .tba-title {
+    font-size: 4em;
+  }
+  .tba-follow {
+    font-size: 1.7em;
+  }
+}
+/*# sourceMappingURL=TBA.css.map */

@@ -9,9 +9,62 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-text {
   color: white;
+  font-size: 1.2em;
+}
+
+.about-row {
+  max-width: 100%;
+}
+
+.text-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+  padding: 3em;
+}
+
+.img-col {
+  height: 15em;
+}
+
+.astronaut {
+  background-image: url("../assets/spaceship.svg"), url("../assets/astronaut.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top, right bottom;
+  height: 15em;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+@media only screen and (max-width: 1000px) {
+  .astronaut {
+    height: 12em;
+    background-position: left, right bottom;
+  }
+  .img-col {
+    height: 35em;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .astronaut {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
 }
 /*# sourceMappingURL=About.css.map */

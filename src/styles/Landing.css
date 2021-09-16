@@ -1,24 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
 .land-bg {
-  min-height: 100vh;
+  height: 100vh;
   max-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../assets/LandingTopBG.svg"), url("../assets/LandBBorder.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top, bottom;
+}
+
+.title-stars {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../assets/LandBBorder.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.land-logo {
+  height: 12em;
 }
 
 .title {
-  color: white;
+  color: #00B587;
+  font-family: "Days One", sans-serif;
+  text-shadow: 2px 2px #86ffe1;
+  font-size: 4em;
+}
+
+.hackathon {
+  font-size: 3em;
 }
 
 .subtitle {
-  color: white;
+  color: #FEED00;
+  font-size: 3em;
+}
+
+.land-dates {
+  color: #7F70CD;
+  font-family: "Days One", sans-serif;
+  font-size: 1em;
+  background-color: #FEED00;
+  -webkit-box-shadow: 2px 2px white;
+          box-shadow: 2px 2px white;
+  width: 20em;
+  padding: .3em .4em;
+  margin-top: 1em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 7em;
+  }
+  .hackathon {
+    font-size: 5em;
+  }
+  .subtitle {
+    font-size: 4em;
+  }
+  .land-dates {
+    font-size: 2.5em;
+  }
 }
 /*# sourceMappingURL=Landing.css.map */
