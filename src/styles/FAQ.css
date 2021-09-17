@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 a {
   color: white;
 }
@@ -72,18 +73,24 @@ hr {
 }
 
 .faq-ques {
-  font-size: 1em;
+  font-size: 1.4em;
   margin: auto;
   width: 100%;
 }
 
 .faq-card {
   width: 100%;
-  padding: .7em;
+  padding: 1.5em;
+  color: #000B54;
 }
 
 .faq-ans {
-  font-size: 0.7em;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
   margin: auto;
+}
+
+.faq-ans > a {
+  color: #000B54;
 }
 /*# sourceMappingURL=FAQ.css.map */

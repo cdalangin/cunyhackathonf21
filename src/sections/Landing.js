@@ -12,7 +12,7 @@ export default function Landing() {
                 <Col xs={12} md={3}>
                     <img src={stars} alt="logo placeholder" className="land-logo" />
                 </Col>
-                <Col xs={12} md={9}>
+                <Col xs={12} md={9} className="title-text">
                     <h1 className="title">CUNY</h1>
                     <h2 className="title hackathon">HACKATHON</h2>
                     <h3 className="title hackathon">Fall 2021</h3>

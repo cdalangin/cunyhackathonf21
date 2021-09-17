@@ -1,5 +1,7 @@
 import React from 'react';
 import "../styles/GetInvolved.css";
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 export default function GetInvolved() {
 
@@ -7,17 +9,17 @@ export default function GetInvolved() {
         <div className="getinv">
             <div className="getinv-bg">
                 <h1 className="getinv-title">Get Involved</h1>
-                <div className="inv-links row">
-                    <div className="link n col-12 col-sm-4" >
+                <Row className="inv-links row">
+                    <Col xs={12} md={4} className="link n" >
                         <h3 className="link-text" onClick={event =>  {window.open('https://www.google.com/', "_blank")}}>MENTOR</h3>
-                    </div>
-                    <div className="link j col-12 col-sm-4">
+                    </Col>
+                    <Col xs={12} md={4} className="link j">
                         <h3 className="link-text" onClick={event =>  {window.open('https://www.google.com/', "_blank")}}>PARTICIPANT</h3>
-                    </div>
-                    <div className="link u col-12 col-sm-4">
+                    </Col>
+                    <Col xs={12} md={4} className="link u">
                         <h3 className="link-text" onClick={event =>  {window.open('https://www.google.com/', "_blank")}}>JUDGE</h3>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
             </div>
             <div className="getinv-bbg"></div>
         </div>

@@ -21,7 +21,7 @@ export const questions = [
     },
     {
         ques: "What should I make?",
-        ans: "You can create any project, as long as you haven’t started it before the hackathon begins. If you need any ideas, we have tracks that you can follow: TBA"
+        ans: "You can create any project, as long as you haven’t started it before the hackathon begins. If you need any ideas, we will have tracks that you can follow."
     },
     {
         ques: "Who can attend CUNY Hackathon 2021?",
@@ -61,6 +61,6 @@ export const questions = [
     },
     {
         ques: "What are the rules?",
-        ans: "Major League Hacking has a Code of Conduct that all participants must abide by before, during, and after the event. TL;DR. Be respectful. Harassment and abuse are never tolerated. If you are in a situation that makes you uncomfortable at an MLH Member Event, if the event itself is creating an unsafe or inappropriate environment, or if interacting with a MLH representative or event organizer makes you uncomfortable, please report it using the procedures included in this <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' />document</a>."
+        ans: "Major League Hacking has a Code of Conduct that all participants must abide by before, during, and after the event. TL;DR. Be respectful. Harassment and abuse are never tolerated. <br/><br/>If you are in a situation that makes you uncomfortable at an MLH Member Event, if the event itself is creating an unsafe or inappropriate environment, or if interacting with a MLH representative or event organizer makes you uncomfortable, please report it using the procedures included in this <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>document</a>."
     },
 ]

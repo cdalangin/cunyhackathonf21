@@ -60,17 +60,23 @@ hr {
 }
 
 .faq-ques {
-    font-size: 1em;
+    font-size: 1.4em;
     margin: auto;
     width: 100%
 }
 
 .faq-card {
     width: 100%;
-    padding: .7em
+    padding: 1.5em;
+    color: $night;
 }
 
 .faq-ans {
-    font-size: 0.7em;
+    font-size: 1.2em;
+    font-family: $para-font;
     margin: auto;
+}
+
+.faq-ans > a {
+    color: $night;
 }

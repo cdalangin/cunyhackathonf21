@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .tba-bg {
   background-position: bottom;
   background-color: #000B54;
@@ -27,6 +29,7 @@
 
 .tba-subtitle {
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .tba-follow {
@@ -41,12 +44,21 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .tba-title {
     font-size: 4em;
   }
   .tba-follow {
     font-size: 1.7em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tba-title {
+    font-size: 5em;
+  }
+  .tba-follow {
+    font-size: 1.9em;
   }
 }
 /*# sourceMappingURL=TBA.css.map */

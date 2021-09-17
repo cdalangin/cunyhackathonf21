@@ -13,6 +13,7 @@
 .about-text {
     color: white;
     font-size: 1.2em;
+    font-family: $para-font;
 }
 
 .about-row {
@@ -24,7 +25,7 @@
     align-items: center;
     justify-content: center;
     text-align: justify;
-    padding: 3em;
+    padding: 4em;
 }
 
 .img-col {
@@ -33,7 +34,6 @@
 
 .astronaut {
     background-image: url("../assets/spaceship.svg"), url("../assets/astronaut.svg");
-    
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left top, right bottom;
