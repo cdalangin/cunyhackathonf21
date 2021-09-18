@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 a {
   color: white;
 }
@@ -86,7 +87,7 @@ hr {
 
 .faq-ans {
   font-size: 1.2em;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: auto;
 }
 

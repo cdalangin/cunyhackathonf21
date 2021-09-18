@@ -40,34 +40,60 @@
   padding: 4em;
 }
 
-.img-col {
-  height: 15em;
-}
-
 .astronaut {
-  background-image: url("../assets/spaceship.svg"), url("../assets/astronaut.svg");
+  background-image: url("../assets/astronaut.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left top, right bottom;
-  height: 15em;
-  -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
+  background-position: right;
+  height: 9em;
+  -webkit-transform-origin: 80%;
+          transform-origin: 80%;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
 }
 
-@media only screen and (max-width: 1000px) {
-  .astronaut {
-    height: 12em;
-    background-position: left, right bottom;
-  }
-  .img-col {
-    height: 35em;
+.spaceship {
+  background-image: url("../assets/spaceship.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 9em;
+  -webkit-transform-origin: 40%;
+          transform-origin: 40%;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+
+@media only screen and (min-width: 550px) {
+  .spaceship {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 768px) {
   .astronaut {
-    -webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);
+    height: 14em;
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  .spaceship {
+    height: 14em;
+    -webkit-transform-origin: 20%;
+            transform-origin: 20%;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .astronaut {
+    height: 16em;
+  }
+  .spaceship {
+    height: 16em;
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
   }
 }
 /*# sourceMappingURL=About.css.map */

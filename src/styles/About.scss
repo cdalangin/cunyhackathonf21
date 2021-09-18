@@ -7,7 +7,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // overflow: hidden;
 }
 
 .about-text {
@@ -28,34 +27,56 @@
     padding: 4em;
 }
 
-.img-col {
-    height: 15em;
-}
-
 .astronaut {
-    background-image: url("../assets/spaceship.svg"), url("../assets/astronaut.svg");
+    background-image: url("../assets/astronaut.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left top, right bottom;
-    // width: 100%;
-    height: 15em;
-    transform: rotate(20deg);
+    background-position: right;
+    height: 9em;
+    transform-origin: 80%;
+    transform: rotate(-20deg);
 }
 
-@media only screen and (max-width: 1000px) {
+.spaceship {
+    background-image: url("../assets/spaceship.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 9em;
+    transform-origin: 40%;
+    transform: rotate(50deg);
+
+}
+
+@media only screen and (min-width: 550px) {
+
+    .spaceship {
+        transform: rotate(20deg);
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
     .astronaut {
-        height: 12em;
-        background-position: left, right bottom;
+        height: 14em;
+        transform: rotate(-20deg);
+    }
+    .spaceship {
+        height: 14em;
+        transform-origin: 20%;
+        transform: rotate(30deg);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .astronaut {
+        height: 16em;
+    }
+
+    .spaceship {
+        height: 16em;
+        transform: rotate(20deg)
     }
     
-    .img-col {
-        height: 35em;
-    }
 }
 
-@media only screen and (max-width: 760px) {
-    .astronaut {
-        // height: 9em;
-        transform: rotate(-10deg);
-    }
-}

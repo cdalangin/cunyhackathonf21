@@ -19,8 +19,9 @@ export default function About() {
                     this 24-hour event will see students create projects and learn from
                     workshops and activities.</p>
             </Col>
-            <Col xs={12} md={6} className="astronaut">  
-                <div ></div>
+            <Col xs={12} md={6} className="img-col">  
+                <div className="spaceship"></div>
+                <div className="astronaut"></div>
             </Col>
             </Row>
         </div>
