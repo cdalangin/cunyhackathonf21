@@ -8,64 +8,98 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("../assets/LandingTopBG.svg"), url("../assets/LandBBorder.svg");
+    background-image: url("../assets/LandingTopBG.svg"), url("../assets/LandBBorder.svg"), url("../assets/bg2.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain, contain, cover;
     background-position: top, bottom;
 }
 
 .title-stars {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
 }
 
 .land-logo {
-    height: 12em
+    height: 12em;
+    // margin: 0 1em;
+}
+
+.land-theme {
+    color: $light-purp;
+    font-family: $title-font;
+    font-size: 1em;
+    background-color: $neon-yellow;
+    box-shadow: 2px 2px white;
+    padding: .3em;
+    margin: 1em 0;
+    border-radius: 30px;
+    width: 80%;
+    font-size: 2em;
 }
 
 .title {
     color: $green;
     font-family: $title-font;
     text-shadow: 2px 2px $light-green;
-    font-size: 4em;
+    font-size: 6em;
+    line-height: 80%;
 }
 
 .hackathon {
-    font-size: 3em;
-}
-
-.subtitle {
-    color: $neon-yellow;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .land-dates {
-    color: $light-purp;
-    font-family: $title-font;
-    font-size: 1em;
-    background-color: $neon-yellow;
-    box-shadow: 2px 2px white;
+    color: $neon-yellow;
+    font-family: $para-font;
+    font-size: 2em;
     width: 20em;
     padding: .3em .4em;
-    margin-top: 1em;
-    border-radius: 30px;
-    cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
     .title {
-        font-size: 7em;
+        font-size: 5em;
+    }
+    
+    .hackathon {
+        font-size: 4em;
+    }
+
+    .land-dates {
+        font-size: 2em;
+    }
+
+    .land-logo {
+        height: 20em
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .land-theme {
+        font-size: 3em;
+    }
+
+    .title {
+        font-size: 6em;
     }
     
     .hackathon {
         font-size: 5em;
     }
-    .subtitle {
-        font-size: 4em;
-    }
 
     .land-dates {
-        font-size: 2.5em;
+        font-size: 3em;
+    }
+
+    .land-logo {
+        height: 30em
     }
 }

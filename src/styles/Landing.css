@@ -17,9 +17,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("../assets/LandingTopBG.svg"), url("../assets/LandBBorder.svg");
+  background-image: url("../assets/LandingTopBG.svg"), url("../assets/LandBBorder.svg"), url("../assets/bg2.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain, contain, cover;
   background-position: top, bottom;
 }
 
@@ -30,57 +30,90 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+.title-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em;
 }
 
 .land-logo {
   height: 12em;
 }
 
-.title {
-  color: #00B587;
-  font-family: "Days One", sans-serif;
-  text-shadow: 2px 2px #86ffe1;
-  font-size: 4em;
-}
-
-.hackathon {
-  font-size: 3em;
-}
-
-.subtitle {
-  color: #FEED00;
-  font-size: 3em;
-}
-
-.land-dates {
+.land-theme {
   color: #7F70CD;
   font-family: "Days One", sans-serif;
   font-size: 1em;
   background-color: #FEED00;
   -webkit-box-shadow: 2px 2px white;
           box-shadow: 2px 2px white;
+  padding: .3em;
+  margin: 1em 0;
+  border-radius: 30px;
+  width: 80%;
+  font-size: 2em;
+}
+
+.title {
+  color: #00B587;
+  font-family: "Days One", sans-serif;
+  text-shadow: 2px 2px #86ffe1;
+  font-size: 6em;
+  line-height: 80%;
+}
+
+.hackathon {
+  font-size: 4em;
+}
+
+.land-dates {
+  color: #FEED00;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
   width: 20em;
   padding: .3em .4em;
-  margin-top: 1em;
-  border-radius: 30px;
-  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
   .title {
-    font-size: 7em;
+    font-size: 5em;
+  }
+  .hackathon {
+    font-size: 4em;
+  }
+  .land-dates {
+    font-size: 2em;
+  }
+  .land-logo {
+    height: 20em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .land-theme {
+    font-size: 3em;
+  }
+  .title {
+    font-size: 6em;
   }
   .hackathon {
     font-size: 5em;
   }
-  .subtitle {
-    font-size: 4em;
-  }
   .land-dates {
-    font-size: 2.5em;
+    font-size: 3em;
+  }
+  .land-logo {
+    height: 30em;
   }
 }
 /*# sourceMappingURL=Landing.css.map */

@@ -10,13 +10,13 @@ export default function GetInvolved() {
             <div className="getinv-bg">
                 <h1 className="getinv-title">Get Involved</h1>
                 <Row className="inv-links row">
-                    <Col xs={12} md={4} className="link n" >
+                    <Col xs={12} md={4} className="link n hvr-hang" >
                         <h3 className="link-text" onClick={event =>  {window.open('https://www.google.com/', "_blank")}}>MENTOR</h3>
                     </Col>
-                    <Col xs={12} md={4} className="link j">
+                    <Col xs={12} md={4} className="link j hvr-hang">
                         <h3 className="link-text" onClick={event =>  {window.open('https://www.google.com/', "_blank")}}>PARTICIPANT</h3>
                     </Col>
-                    <Col xs={12} md={4} className="link u">
+                    <Col xs={12} md={4} className="link u hvr-hang">
                         <h3 className="link-text" onClick={event =>  {window.open('https://www.google.com/', "_blank")}}>JUDGE</h3>
                     </Col>
                 </Row>

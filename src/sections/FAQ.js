@@ -5,12 +5,15 @@ import {questions} from "../assets/Questions"
 import Dropdown from 'react-bootstrap/Dropdown'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-// import Dropdown from "../assets/dropdown.png"
+import ufo from "../assets/ufo.png"
 
 export default function FAQ() {
 
     return (
         <div className="faq-bg">
+            <div>
+                <img src={ufo} alt="ufo" className="hvr-hang faq-ufo " />
+            </div>
             <div className="faq-box">
                 <h1 className="faq-title">Frequently Asked Questions</h1>
                 <hr/>

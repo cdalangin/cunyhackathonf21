@@ -31,6 +31,11 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+.faq-ufo {
+  display: none;
 }
 
 .faq-box {
@@ -93,5 +98,14 @@ hr {
 
 .faq-ans > a {
   color: #000B54;
+}
+
+@media only screen and (min-width: 768px) {
+  .faq-ufo {
+    display: block;
+    position: absolute;
+    top: -2em;
+    right: 5em;
+  }
 }
 /*# sourceMappingURL=FAQ.css.map */

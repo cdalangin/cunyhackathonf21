@@ -21,6 +21,11 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.faq-ufo {
+    display: none;
 }
 
 .faq-box {
@@ -80,3 +85,14 @@ hr {
 .faq-ans > a {
     color: $night;
 }
+
+@media only screen and (min-width: 768px) {
+    .faq-ufo{
+        display: block;
+        position: absolute;
+        top: -2em;
+        right: 5em;
+        // transform: rotate(-30deg) !important;
+    }
+}
+

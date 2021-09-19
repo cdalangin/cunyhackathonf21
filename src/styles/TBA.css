@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .tba-bg {
-  background-position: bottom;
+  background-position: center;
   background-color: #000B54;
   max-width: 100vw;
   min-height: 30vh;
@@ -19,6 +19,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+.tba-astro2 {
+  display: none;
 }
 
 .tba-title {
@@ -50,6 +55,12 @@
   }
   .tba-follow {
     font-size: 1.7em;
+  }
+  .tba-astro2 {
+    display: block;
+    position: absolute;
+    height: 6em;
+    right: 3em;
   }
 }
 

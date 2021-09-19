@@ -7,7 +7,7 @@
   min-height: 90vh;
   background-color: #000B54;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain, contain;
   background-position: top, bottom;
   display: -webkit-box;
   display: -ms-flexbox;
