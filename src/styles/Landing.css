@@ -95,6 +95,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .title-text {
@@ -108,11 +111,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
   margin: 1em;
 }
 
 .land-logo {
-  height: 12em;
+  height: 10em;
 }
 
 .land-theme {
@@ -125,26 +132,26 @@
   padding: .3em;
   margin: 1em 0;
   border-radius: 30px;
-  width: 80%;
-  font-size: 2em;
+  width: 12em;
+  font-size: 1.5em;
 }
 
 .title {
   color: #00B587;
   font-family: "Days One", sans-serif;
   text-shadow: 2px 2px #86ffe1;
-  font-size: 6em;
+  font-size: 4em;
   line-height: 80%;
 }
 
 .hackathon {
-  font-size: 4em;
+  font-size: 2.5em;
 }
 
 .land-dates {
   color: #FEED00;
   font-family: "Montserrat", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   width: 20em;
   padding: .3em .4em;
 }

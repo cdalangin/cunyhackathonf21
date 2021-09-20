@@ -17,18 +17,21 @@
 .title-stars {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .title-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     margin: 1em;
 }
 
 .land-logo {
-    height: 12em;
-    // margin: 0 1em;
+    height: 10em;
+    // margin-top: 2em;
 }
 
 .land-theme {
@@ -40,26 +43,26 @@
     padding: .3em;
     margin: 1em 0;
     border-radius: 30px;
-    width: 80%;
-    font-size: 2em;
+    width: 12em;
+    font-size: 1.5em;
 }
 
 .title {
     color: $green;
     font-family: $title-font;
     text-shadow: 2px 2px $light-green;
-    font-size: 6em;
+    font-size: 4em;
     line-height: 80%;
 }
 
 .hackathon {
-    font-size: 4em;
+    font-size: 2.5em;
 }
 
 .land-dates {
     color: $neon-yellow;
     font-family: $para-font;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 20em;
     padding: .3em .4em;
 }
