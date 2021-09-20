@@ -27,6 +27,7 @@
 .tba-subtitle {
     color: white;
     font-family: $para-font;
+    z-index: 100;
 }
 
 .tba-follow {
@@ -54,9 +55,8 @@
         display: block;
         position: absolute;
         height: 6em;
-        right: 3em;
-        // z-index: ;
-        // animation: astro2 3s linear 1s infinite running slidein; FIX PLS
+        opacity: 70%;
+        animation: astro2 10s linear infinite;
     }
 }
 
@@ -70,3 +70,12 @@
     }
 }
 
+@keyframes astro2 {
+    0% {
+        left: -10%
+    }
+
+    100% {
+        left: 110%
+    }
+}

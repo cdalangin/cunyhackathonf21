@@ -27,44 +27,33 @@
     padding: 4em;
 }
 
+.img-col {
+    position: relative;
+}
+
 .astronaut {
-    background-image: url("../assets/astronaut.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    height: 9em;
-    transform-origin: 80%;
+    position: absolute;
+    height: 6em;
     transform: rotate(-20deg);
+    bottom: 0.5em;
+    right: 2em;
 }
 
 .spaceship {
-    background-image: url("../assets/spaceship.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
-    height: 9em;
-    transform-origin: 40%;
+    position: absolute;
+    height: 6em;
     transform: rotate(50deg);
-
-}
-
-@media only screen and (min-width: 550px) {
-
-    .spaceship {
-        transform: rotate(20deg);
-    }
-
+    left: 2em;
 }
 
 @media only screen and (min-width: 768px) {
     .astronaut {
         height: 14em;
-        transform: rotate(-20deg);
+        transform: rotate(40deg);
+        top: 10em;
     }
     .spaceship {
         height: 14em;
-        transform-origin: 20%;
-        transform: rotate(30deg);
     }
 }
 
@@ -75,7 +64,8 @@
 
     .spaceship {
         height: 16em;
-        transform: rotate(20deg)
+        transform: rotate(20deg);
+        top: -3em;
     }
     
 }

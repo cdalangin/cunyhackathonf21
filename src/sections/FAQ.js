@@ -12,7 +12,7 @@ export default function FAQ() {
     return (
         <div className="faq-bg">
             <div>
-                <img src={ufo} alt="ufo" className="hvr-hang faq-ufo " />
+                <img src={ufo} alt="ufo" className="hvr-hang faq-ufo" />
             </div>
             <div className="faq-box">
                 <h1 className="faq-title">Frequently Asked Questions</h1>

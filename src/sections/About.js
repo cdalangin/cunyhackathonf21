@@ -3,6 +3,9 @@ import "../styles/About.css"
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import spaceship from "../assets/spaceship.svg"
+import astronaut from "../assets/astronaut.svg"
+
 export default function About() {
 
     return (
@@ -20,8 +23,12 @@ export default function About() {
                     workshops and activities.</p>
             </Col>
             <Col xs={12} md={6} className="img-col">  
-                <div className="spaceship"></div>
-                <div className="astronaut"></div>
+                <div class="hvr-hang">
+                    <img src={spaceship} alt="spaceship" class="spaceship"/>
+                </div>
+                <div class="hvr-hang">
+                    <img src={astronaut} alt="astronaut" class="astronaut"/>
+                </div>
             </Col>
             </Row>
         </div>
