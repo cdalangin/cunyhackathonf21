@@ -11,13 +11,13 @@ export default function GetInvolved() {
                 <h1 className="getinv-title">Get Involved</h1>
                 <Row className="inv-links row">
                     <Col xs={12} md={4} className="link n hvr-hang" >
-                        <a href="https://forms.gle/L8QDNXm5QJgbyZNy7" className="link-text" target="_blank">MENTOR</a>
+                        <a href="https://form.typeform.com/to/Y2YxnwJq" className="link-text" target="_blank">MENTOR</a>
                     </Col>
                     <Col xs={12} md={4} className="link j hvr-hang">
-                        <a href="https://forms.gle/nxc2knA6zpcF5zQu8" className="link-text" target="_blank">PARTICIPANT</a>
+                        <a href="https://form.typeform.com/to/LE89laZh" className="link-text" target="_blank">PARTICIPANT</a>
                     </Col>
                     <Col xs={12} md={4} className="link u hvr-hang">
-                        <a href="https://forms.gle/NyiJudMWA1N1zkPHA" className="link-text" target="_blank">JUDGE</a>
+                        <a href="https://form.typeform.com/to/MFiSqPfq" className="link-text" target="_blank">JUDGE</a>
                     </Col>
                 </Row>
             </div>
