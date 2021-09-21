@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/cunyhackathonf21/static/css/main.2d9663bb.chunk.css",
-    "main.js": "/cunyhackathonf21/static/js/main.6d1d8f0d.chunk.js",
-    "main.js.map": "/cunyhackathonf21/static/js/main.6d1d8f0d.chunk.js.map",
+    "main.css": "/cunyhackathonf21/static/css/main.fbe74551.chunk.css",
+    "main.js": "/cunyhackathonf21/static/js/main.a43a2eb8.chunk.js",
+    "main.js.map": "/cunyhackathonf21/static/js/main.a43a2eb8.chunk.js.map",
     "runtime-main.js": "/cunyhackathonf21/static/js/runtime-main.c07cc02c.js",
     "runtime-main.js.map": "/cunyhackathonf21/static/js/runtime-main.c07cc02c.js.map",
-    "static/js/2.783132ce.chunk.js": "/cunyhackathonf21/static/js/2.783132ce.chunk.js",
-    "static/js/2.783132ce.chunk.js.map": "/cunyhackathonf21/static/js/2.783132ce.chunk.js.map",
+    "static/js/2.9f5e70fb.chunk.js": "/cunyhackathonf21/static/js/2.9f5e70fb.chunk.js",
+    "static/js/2.9f5e70fb.chunk.js.map": "/cunyhackathonf21/static/js/2.9f5e70fb.chunk.js.map",
     "static/js/3.16c4b668.chunk.js": "/cunyhackathonf21/static/js/3.16c4b668.chunk.js",
     "static/js/3.16c4b668.chunk.js.map": "/cunyhackathonf21/static/js/3.16c4b668.chunk.js.map",
     "index.html": "/cunyhackathonf21/index.html",
-    "static/css/main.2d9663bb.chunk.css.map": "/cunyhackathonf21/static/css/main.2d9663bb.chunk.css.map",
-    "static/js/2.783132ce.chunk.js.LICENSE.txt": "/cunyhackathonf21/static/js/2.783132ce.chunk.js.LICENSE.txt",
+    "static/css/main.fbe74551.chunk.css.map": "/cunyhackathonf21/static/css/main.fbe74551.chunk.css.map",
+    "static/js/2.9f5e70fb.chunk.js.LICENSE.txt": "/cunyhackathonf21/static/js/2.9f5e70fb.chunk.js.LICENSE.txt",
     "static/media/FAQ.css": "/cunyhackathonf21/static/media/FAQTopBG2.0dcb049b.svg",
     "static/media/GetInvolved.css": "/cunyhackathonf21/static/media/uranus.2c26dd08.png",
-    "static/media/Landing.css": "/cunyhackathonf21/static/media/LandingTopBG.b74869fb.svg",
+    "static/media/Landing.css": "/cunyhackathonf21/static/media/bg2.311a0a9e.png",
     "static/media/Footer.css": "/cunyhackathonf21/static/media/TBABBG.901d476e.svg",
-    "static/media/About.css": "/cunyhackathonf21/static/media/spaceship.17ff25a5.svg",
+    "static/media/astronaut.5fa12419.svg": "/cunyhackathonf21/static/media/astronaut.5fa12419.svg",
+    "static/media/astronaut2.1985083b.png": "/cunyhackathonf21/static/media/astronaut2.1985083b.png",
     "static/media/logo.6ce24c58.svg": "/cunyhackathonf21/static/media/logo.6ce24c58.svg",
-    "static/media/stars.bd7fed61.svg": "/cunyhackathonf21/static/media/stars.bd7fed61.svg"
+    "static/media/logo1.9d8e467d.PNG": "/cunyhackathonf21/static/media/logo1.9d8e467d.PNG",
+    "static/media/spaceship.17ff25a5.svg": "/cunyhackathonf21/static/media/spaceship.17ff25a5.svg",
+    "static/media/ufo.de1109cc.png": "/cunyhackathonf21/static/media/ufo.de1109cc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c07cc02c.js",
-    "static/js/2.783132ce.chunk.js",
-    "static/css/main.2d9663bb.chunk.css",
-    "static/js/main.6d1d8f0d.chunk.js"
+    "static/js/2.9f5e70fb.chunk.js",
+    "static/css/main.fbe74551.chunk.css",
+    "static/js/main.a43a2eb8.chunk.js"
   ]
 }
