@@ -58,7 +58,7 @@
     font-family: $title-font;
     font-size: 1em;
     background-color: $green;
-    opacity: 100%;
+    opacity: 1;
     width: 10em;
     padding: .2em .3em;
     border-radius: 30px;
@@ -69,7 +69,7 @@
 .link-text:hover {
     color: white;
     cursor: pointer;
-    opacity: 80%;
+    opacity: .8;
 }
 
 @media only screen and (min-width: 768px) {
