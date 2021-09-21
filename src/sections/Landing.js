@@ -13,7 +13,7 @@ export default function Landing() {
                     <img src={logo} alt="logo" className="land-logo hvr-hang" />
                 </Col>
                 <Col xs={12} md={7} className="title-text">
-                <h4 className="land-theme">UNITED WE CODE</h4>
+                    <h4 className="land-theme">UNITED WE CODE</h4>
                     <h3 className="title hackathon">Fall 2021</h3>
                     <h1 className="title">CUNY</h1>
                     <h2 className="title hackathon">HACKATHON</h2>
