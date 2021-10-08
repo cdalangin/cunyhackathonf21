@@ -5,6 +5,7 @@ import About from "./sections/About"
 import GetInvolved from "./sections/GetInvolved"
 import Tracks from "./sections/Tracks"
 import FAQ from "./sections/FAQ"
+import Sponsors from "./sections/Sponsors"
 import TBA from "./sections/TBA"
 import Footer from "./sections/Footer"
 
@@ -16,6 +17,7 @@ function App() {
       <GetInvolved />
       {/* <Tracks /> */}
       <FAQ />
+      <Sponsors />
       <TBA />
       <Footer />
     </div>
