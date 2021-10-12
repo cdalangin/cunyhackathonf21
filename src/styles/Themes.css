@@ -48,8 +48,6 @@
 .hvr-hang {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
   animation-name: hvr-hang-sink, hvr-hang;
   -webkit-animation-duration: .3s, 1.5s;
@@ -66,10 +64,55 @@
   animation-direction: normal, alternate;
 }
 
-.tracks-bg {
-  min-height: 50vh;
+.themes-bg {
+  min-height: 70vh;
   background-color: #441AE7;
   color: white;
   font-family: "Days One", sans-serif;
+  padding-bottom: 2em;
 }
-/*# sourceMappingURL=Tracks.css.map */
+
+.theme-carousel {
+  margin: 3em 0;
+  height: 20em;
+}
+
+.theme-item {
+  height: 17em;
+  width: 13em;
+  background-color: #00B587;
+  border-radius: 0 0 2em 2em;
+  margin: auto;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 10px 10px #000B54;
+          box-shadow: 10px 10px #000B54;
+}
+
+.theme-subtitle {
+  font-family: "Days One", sans-serif;
+  font-size: 1em;
+}
+
+.theme-para {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7em;
+  margin-top: 0.5em;
+}
+
+.theme-icon {
+  height: 5em;
+  width: 5em;
+}
+/*# sourceMappingURL=Themes.css.map */

@@ -3,7 +3,7 @@ import './styles/App.scss';
 import Landing from "./sections/Landing"
 import About from "./sections/About"
 import GetInvolved from "./sections/GetInvolved"
-import Tracks from "./sections/Tracks"
+import Themes from "./sections/Themes"
 import FAQ from "./sections/FAQ"
 import Sponsors from "./sections/Sponsors"
 import TBA from "./sections/TBA"
@@ -15,7 +15,7 @@ function App() {
       <Landing />
       <About />
       <GetInvolved />
-      {/* <Tracks /> */}
+      <Themes />
       <FAQ />
       <Sponsors />
       <TBA />

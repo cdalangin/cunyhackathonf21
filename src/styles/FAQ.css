@@ -48,8 +48,6 @@
 .hvr-hang {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
   animation-name: hvr-hang-sink, hvr-hang;
   -webkit-animation-duration: .3s, 1.5s;

@@ -1,0 +1,44 @@
+@import "./Variables/Variables.scss";
+
+.themes-bg {
+    min-height: 70vh;
+    background-color: $blue;
+    color: white;
+    font-family: $title-font;
+    padding-bottom: 2em;
+}
+
+.theme-carousel {
+    margin: 3em 0;
+    height: 20em;
+}
+
+.theme-item {
+    height: 17em;
+    width: 13em;
+    background-color: $green;
+    border-radius: 0 0 2em 2em;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px $night;
+}
+
+.theme-subtitle {
+    font-family: $title-font;
+    font-size: 1em;
+}
+
+.theme-para {
+    font-family: $para-font;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+}
+
+.theme-icon {
+    height: 5em;
+    width: 5em;
+}
