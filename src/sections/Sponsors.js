@@ -3,7 +3,7 @@ import "../styles/Sponsors.css"
 import bloomberg from "../assets/sponsors/bloomberg.png"
 import cunystartups from "../assets/sponsors/cunystartups.png"
 import mlh from "../assets/sponsors/mlh.png"
-import mufg from "../assets/sponsors/mufg.jpg"
+import mufg from "../assets/sponsors/mufg.png"
 import astro2 from "../assets/astronaut2.png"
 
 export default function Sponsors() {

@@ -51,12 +51,12 @@ export default function Themes() {
                 <div className="hvr-hang theme-item">
                     <p className="theme-subtitle">Finance</p>
                     <img src={budget} alt="Finance" className="theme-icon" />
-                    <p className="theme-para">Personal Finances, Blockchain, Budgeting</p>
+                    <p className="theme-para">Personal Finances, Blockchain, and Budgeting</p>
                 </div>
                 <div className="hvr-hang theme-item">
                     <p className="theme-subtitle">Education</p>
                     <img src={education} alt="Education" className="theme-icon" />
-                    <p className="theme-para">Productivity</p>
+                    <p className="theme-para">Productivity, Online Learning, and College Life</p>
                 </div>
                 <div className="hvr-hang theme-item">
                     <p className="theme-subtitle">Healthcare</p>
